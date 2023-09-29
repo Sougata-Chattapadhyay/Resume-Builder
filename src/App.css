@@ -1,7 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +38,131 @@
     transform: rotate(360deg);
   }
 }
+
+/* css start for template 2 */
+.template2 {
+  display: flex;
+  /* padding: 10px; */
+  overflow: hidden;
+  /* background: rgb(253, 247, 242); */
+  height: 700px;
+  width: 565px;
+  margin: 32px 4px;
+  border: 1px solid black;
+}
+.template2-left {
+  flex: 0 0 30%;
+  background: #004a4d;
+  color: white;
+  padding: 10px;
+}
+.template2-name {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 8px 0px;
+}
+.template2-roll {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 8px;
+}
+.template2-img {
+  margin: 8px 0px;
+}
+.template2-personalInfo {
+  text-align: left;
+}
+.template2-heading {
+  background: #062225;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.template2-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px;
+}
+.template2-value {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 4px;
+}
+.template2-skills {
+  text-align: left;
+  margin: 8px 0px;
+}
+.template2-skill-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  margin: 4px 0px;
+}
+.rating-star {
+  width: 12px;
+}
+.template2-language-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  margin: 4px 0px;
+}
+
+.template2-language-heading {
+  background: #062225;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+.template2-right {
+  padding: 0px 6px 0px 10px;
+}
+.template2-bio {
+  overflow: visible;
+  width: 100%;
+  overflow-wrap: anywhere;
+  text-align: left;
+  font-size: 12px;
+  color: gray;
+  font-weight: 400;
+}
+.template2-work-history-heading {
+  padding: 0 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 10px 0px;
+  color: #004a4d;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+.template2-work-history-set {
+  display: flex;
+}
+.template2-work-history-date {
+  color: gray;
+  font-size: 16px;
+}
+.template2-work-history-info {
+  text-align: left;
+  padding-left: 16px;
+}
+.template2-work-history-role {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.template2-work-history-company {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 2px 0px;
+}
+.template2-work-history-info ul {
+  padding-left: 18px;
+  font-size: 12px;
+  color: gray;
+}
+/* css end for template 2 */
